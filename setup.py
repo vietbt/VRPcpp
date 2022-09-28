@@ -11,12 +11,12 @@ __version__ = "1.0.3"
 ext_modules = [
     Pybind11Extension(
         "evrp_cpp",
-        load_cpp_files("VRPcpp/vns"),
+        load_cpp_files("./vns"),
         define_macros=[('VERSION_INFO', __version__)],
     ),
     Pybind11Extension(
         "cvrp_cpp",
-        load_cpp_files("VRPcpp/hgs"),
+        load_cpp_files("./hgs"),
         define_macros=[('VERSION_INFO', __version__)],
     ),
 ]
