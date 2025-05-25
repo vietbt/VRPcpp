@@ -1,6 +1,6 @@
 # VRP C++ Bindings for Python
 
-This repository provides Python C++ bindings for Vehicle Routing Problem (VRP) environments, created using Pybind11. It serves as an extension to the main VRP_াইল research project, enabling the use of highly optimized C++ VRP solvers within a Python environment.
+This repository provides Python C++ bindings for Vehicle Routing Problem (VRP) environments, created using Pybind11. It serves as an extension to the main VRPpp research project, enabling the use of highly optimized C++ VRP solvers within a Python environment.
 
 This wrapper facilitates the use of two main VRP solver environments:
 * **cvrp_cpp**: For Capacitated Vehicle Routing Problems (CVRP) based on the Hybrid Genetic Search (HGS) algorithm.
